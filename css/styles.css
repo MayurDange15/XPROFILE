@@ -1,0 +1,36 @@
+body{
+    background-image: url(/assets/background.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.profile-box{
+    background-color: #ff574a;
+    color: #fff;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 90px 40px 90px;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 -50px;
+}
+
+.menu-icon, .setting-icon{
+    width: 25px;
+}
+
+.profile-pic{
+    border-radius: 50%;
+    width: 150px;
+    padding: 6px;
+}
+
+.social-media img{
+    width: 20px;
+    cursor: pointer;
+}
